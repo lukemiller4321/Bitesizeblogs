@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+a {
+  @apply transition-colors;
+}
+
+button {
+  @apply font-medium transition-all;
+}
+
+/* Article styles */
+article h1 {
+  @apply text-4xl font-bold mb-4 mt-8;
+}
+
+article h2 {
+  @apply text-2xl font-bold mb-3 mt-6;
+}
+
+article p {
+  @apply mb-4 leading-relaxed;
+}
+
+article li {
+  @apply ml-6 mb-2;
+}
+
+article code {
+  @apply bg-slate-200 px-2 py-1 rounded text-sm font-mono;
+}
+
+article blockquote {
+  @apply border-l-4 border-slate-300 pl-4 italic text-slate-600 my-4;
+}
