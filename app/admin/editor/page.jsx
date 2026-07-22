@@ -167,7 +167,7 @@ export default function PostEditor() {
               className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-slate-900 h-96 font-mono text-sm"
             />
             <p className="text-xs text-slate-500 mt-2">
-              Supports: # Headings, ## Subheadings, > Quotes, - Lists
+              Supports: # Headings, ## Subheadings, &gt; Quotes, - Lists
             </p>
           </div>
 
